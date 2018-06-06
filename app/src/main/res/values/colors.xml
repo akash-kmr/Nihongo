@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="numbers">#FF1744</color>
-    <color name="colors">#18ffff</color>
+    <color name="numbers">#c21134</color>
+    <color name="colors">#537748</color>
     <color name="mainActivityBackground">#FFFF89</color>
 </resources>
