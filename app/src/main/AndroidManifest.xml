@@ -14,7 +14,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
@@ -24,6 +26,14 @@
                     android:scheme="android-app-google-plus-demo" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/numbers"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/colors"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
